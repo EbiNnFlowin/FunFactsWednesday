@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/funFactLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
@@ -9,7 +10,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/newFactButton"
+        android:id="@+id/showFactButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@android:color/background_light"
@@ -38,7 +39,7 @@
         android:text="Ravens in camptivity can learn to talk better than parrots"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/newFactButton"
+        app:layout_constraintBottom_toTopOf="@+id/showFactButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
